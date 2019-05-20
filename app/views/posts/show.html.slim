@@ -1,0 +1,6 @@
+div id="zype_#{params[:id]}"
+
+script src="https://player.zype.com/embed/#{params[:id]}.js?autoplay=true&app_key=#{Rails.application.secrets.zype_app_key}"
+  type="text/javascript"
+
+p = link_to 'Back .. ', root_path

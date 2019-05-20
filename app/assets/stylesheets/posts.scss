@@ -1,0 +1,19 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#load-more-posts {
+  display: none;
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+
+div#query_diet {
+  z-index: 1001 !important;
+  position: fixed !important;
+}

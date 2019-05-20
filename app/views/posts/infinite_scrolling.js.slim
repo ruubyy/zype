@@ -1,0 +1,7 @@
+| $('#listing-infinite-scrolling').append('#{j render(partial: 'posts/post', collection: @posts['response']) }');
+
+- if @posts['pagination']['next']
+  | $('#paginate-infinite-scrolling').data('page', '#{@posts['pagination']['next']}')
+- else
+  | $(window).off('scroll');
+  | $('#paginate-infinite-scrolling').remove();
