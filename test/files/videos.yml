@@ -1,0 +1,60 @@
+with_thumbnail:
+  _id: 56a7b83069702d2f8309d9b7
+  active: true
+  country: nil
+  created_at: 2016-01-26T13:17:20.712-05:00
+  description: When the popular kids
+  disable_at: nil
+  discovery_url: nil
+  title: Love Struck - SNL
+  thumbnails:
+    - aspect_ratio: 1.33
+      height: 90
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/default.jpg
+      width: 120  
+    - aspect_ratio: 1.78
+      height: 240
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/mqdefault.jpg
+      width: 320
+without_thumbnail:
+  _id: 56a7b83069702d2f8309d9b7
+  active: true
+  country: nil
+  created_at: 2016-01-26T13:17:20.712-05:00
+  description: When the popular kids
+  disable_at: nil
+  discovery_url: nil
+  title: Love Struck - SNL
+  thumbnails:
+    - aspect_ratio: 1.33
+      height: 90
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/default.jpg
+      width: 120
+    - aspect_ratio: 1.78
+      height: 240
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/mqdefault.jpg
+      width: 320
+with_invalid_thumbnail:
+  _id: 56a7b83069702d2f8309d9b7
+  active: true
+  country: nil
+  created_at: 2016-01-26T13:17:20.712-05:00
+  description: When the popular kids
+  disable_at: nil
+  discovery_url: nil
+  title: Love Struck - SNL
+  thumbnails:
+    - aspect_ratio: 1.33
+      height: 90
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/default.jpg
+      width: 120
+    - aspect_ratio: 1.78
+      height: 120
+      name: nil
+      url: https://i.ytimg.com/vi/jhz862KOstA/mqdefault.jpg
+      width: 320

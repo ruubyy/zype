@@ -10,7 +10,7 @@ $( document ).ready(function() {
       var more_posts_url = '/?page=' + page;
       if (more_posts_url && ($(window).scrollTop() > $(document).height() - $(window).height() - 60)) {
         loading = true;
-        $('#paginate-infinite-scrolling').html('<img src="/assets/ajax-loader.gif" alt="Loading..." title="Loading..." />');
+        $('#paginate-infinite-scrolling img').show();
         $.getScript(more_posts_url, function() {
           loading = false;
         });

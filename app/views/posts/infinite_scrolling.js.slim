@@ -1,7 +1,8 @@
-| $('#listing-infinite-scrolling').append('#{j render(partial: 'posts/post', collection: @posts['response']) }');
+| $('#listing-infinite-scrolling').append('#{j render(partial: 'posts/post', collection: @posts) }');
+| $('#paginate-infinite-scrolling img').hide();
 
-- if @posts['pagination']['next']
-  | $('#paginate-infinite-scrolling').data('page', '#{@posts['pagination']['next']}')
+- if @pagination['next']
+  | $('#paginate-infinite-scrolling').data('page', '#{@pagination['next']}')
 - else
   | $(window).off('scroll');
   | $('#paginate-infinite-scrolling').remove();

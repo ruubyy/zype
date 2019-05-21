@@ -3,6 +3,7 @@ h1 Zype Videos
 hr
 
 #listing-infinite-scrolling
-  = render partial: 'posts/post', collection: @posts['response']
+  = render partial: 'posts/post', collection: @posts
 
 #paginate-infinite-scrolling data-page="1"
+  = image_tag 'ajax-loader.gif', alt: 'Loading...', title: 'Loading...'
